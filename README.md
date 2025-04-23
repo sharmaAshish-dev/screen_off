@@ -41,7 +41,7 @@ await ScreenOff.turnScreenOn();
 Add this to your pubspec.yaml:
 ```
 dependencies:
-  screen_off: ^0.0.3
+  screen_off: ^0.0.4
 ```
 Then run:
 ```
@@ -52,12 +52,7 @@ flutter pub get
 If you find it useful, a ⭐ on GitHub is appreciated.
 
 ### Maintainer
-Developed and maintained by:
-
-🔗 GitHub: <u>[Musaddiq625](https://github.com/musaddiq625)</u>
-
-🔗 LinkedIn: <u>[Musaddiq625](https://linkedin.com/in/musaddiq625)</u>
-
+Developed and maintained by Musaddiq625
 
 ### License
 This project is licensed under the MIT License - see the LICENSE file for details.
