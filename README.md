@@ -41,7 +41,7 @@ await ScreenOff.turnScreenOn();
 Add this to your pubspec.yaml:
 ```
 dependencies:
-  screen_off: ^0.0.2
+  screen_off: ^0.0.3
 ```
 Then run:
 ```
