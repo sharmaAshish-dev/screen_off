@@ -52,9 +52,12 @@ flutter pub get
 If you find it useful, a ⭐ on GitHub is appreciated.
 
 ### Maintainer
-Developed and maintained by Musaddiq\n
+Developed and maintained by:
+
 🔗 GitHub: <u>[Musaddiq625](https://github.com/musaddiq625)</u>
+
 🔗 LinkedIn: <u>[Musaddiq625](https://linkedin.com/in/musaddiq625)</u>
 
-License
+
+### License
 This project is licensed under the MIT License - see the LICENSE file for details.
