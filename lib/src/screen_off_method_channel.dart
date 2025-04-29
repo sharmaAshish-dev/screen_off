@@ -1,5 +1,5 @@
 import 'package:flutter/services.dart';
-
+import 'package:flutter/material.dart';
 import 'screen_off_platform_interface.dart';
 
 class ScreenOffMethodChannel implements ScreenOffPlatformInterface {
@@ -10,7 +10,8 @@ class ScreenOffMethodChannel implements ScreenOffPlatformInterface {
     try {
       await _channel.invokeMethod('turnScreenOff');
     } on PlatformException catch (e) {
-      print("Error turning screen off: ${e.message}");
+      debugPrint("Error turning screen off: ${e.message}");
+      rethrow;
     }
   }
 
@@ -19,7 +20,8 @@ class ScreenOffMethodChannel implements ScreenOffPlatformInterface {
     try {
       await _channel.invokeMethod('turnScreenOn');
     } on PlatformException catch (e) {
-      print("Error turning screen on: ${e.message}");
+      debugPrint("Error turning screen on: ${e.message}");
+      rethrow;
     }
   }
 }
