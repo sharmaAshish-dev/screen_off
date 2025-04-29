@@ -5,8 +5,8 @@ A Flutter plugin to programmatically turn the screen off or on using the proximi
 ## Features
 
 - 📴 Turn screen off using proximity sensor
-- 🔛 Turn screen back on when the sensor is no longer triggered
-- Easy to integrate into any Flutter app
+- ⚡ Turn screen back on when the sensor is no longer triggered
+- 🔌 Easy to integrate into any Flutter app
 - ✅ Works on both **Android** and **iOS**
 
 ## Usage
@@ -41,7 +41,7 @@ await ScreenOff.turnScreenOn();
 Add this to your pubspec.yaml:
 ```
 dependencies:
-  screen_off: ^0.0.4
+  screen_off: <latest_version>
 ```
 Then run:
 ```
