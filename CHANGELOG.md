@@ -1,3 +1,6 @@
+## 0.0.6
+* Update README.md
+
 ## 0.0.5
 * Prevented instantiation of ScreenOff class
 * Improved documentation and code structure
