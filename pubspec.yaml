@@ -1,12 +1,12 @@
 name: screen_off
 description: A Flutter plugin to turn on and off the screen using the proximity sensor.
 version: 0.0.6
-homepage: https://github.com/Musaddiq625/screen_off
-repository: https://github.com/Musaddiq625/screen_off
-issue_tracker: https://github.com/Musaddiq625/screen_off/issues
+homepage: https://github.com/sharmaAshish-dev/screen_off
+repository: https://github.com/sharmaAshish-dev/screen_off
+issue_tracker: https://github.com/sharmaAshish-dev/screen_off/issues
 
 environment:
-  sdk: ^3.7.0
+  sdk: '>=3.2.4 <4.0.0'
   flutter: '>=3.3.0'
 
 dependencies:
